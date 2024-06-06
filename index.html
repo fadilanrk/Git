@@ -3,26 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Utama</title>
+    <title>Desain Interior</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('interior-design.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .content {
+            margin-top: 2em;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Selamat Datang di Halaman Utama</h1>
+        <h1>Desain Interior</h1>
     </header>
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Konten Utama</h2>
-        <p>Ini adalah contoh konten utama halaman.</p>
+        <div class="hero">
+            <h2>Transformasi Ruang Anda</h2>
+        </div>
+        <div class="content">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah perusahaan desain interior yang berdedikasi untuk menciptakan ruang indah dan fungsional. Dengan tim profesional yang berpengalaman, kami siap membantu Anda mewujudkan impian desain Anda.</p>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p>&copy; 2024 Desain Interior. All rights reserved.</p>
     </footer>
 </body>
 </html>
