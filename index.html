@@ -9,16 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e0f7fa; /* Warna biru muda */
+            background-color: #f5f5dc; /* Warna krim */
         }
         header {
-            background-color: #0288d1; /* Warna biru */
+            background-color: #8b4513; /* Warna cokelat */
             color: white;
             padding: 1em 0;
             text-align: center;
         }
         nav {
-            background-color: #03a9f4; /* Warna biru cerah */
+            background-color: #deb887; /* Warna cokelat muda */
             padding: 0.5em 0;
         }
         nav ul {
@@ -34,13 +34,14 @@
         nav ul li a {
             color: white;
             text-decoration: none;
+            font-weight: bold;
         }
         main {
             padding: 2em;
             text-align: center;
         }
         .hero {
-            background-image: url('interior-design.jpg');
+            background-image: url('https://via.placeholder.com/1200x400'); /* Ganti dengan URL gambar interior yang sesuai */
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -58,14 +59,23 @@
             margin-top: 2em;
         }
         .content h2 {
-            color: #0288d1; /* Warna biru */
+            color: #8b4513; /* Warna cokelat */
         }
         .content p {
             font-size: 1.1em;
             color: #666;
         }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+        }
         footer {
-            background-color: #0288d1; /* Warna biru */
+            background-color: #8b4513; /* Warna cokelat */
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -94,6 +104,11 @@
         <div class="content">
             <h2>Tentang Kami</h2>
             <p>Kami adalah perusahaan desain interior yang berdedikasi untuk menciptakan ruang indah dan fungsional. Dengan tim profesional yang berpengalaman, kami siap membantu Anda mewujudkan impian desain Anda.</p>
+        </div>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/400" alt="Interior 1">
+            <img src="https://via.placeholder.com/400" alt="Interior 2">
+            <img src="https://via.placeholder.com/400" alt="Interior 3">
         </div>
     </main>
     <footer>
